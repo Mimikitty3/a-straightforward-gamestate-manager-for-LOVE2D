@@ -5,7 +5,7 @@ GENERAL USAGE:
 
 1) Add gamestate.lua to your project (if you have a libraries folder, put it there)
 2) create a "states" folder in the same directory as your main.lua
-3) add this line at the top of your project: gamestate = require("gamestate")
+3) add this line at the top of your main.lua: gamestate = require("gamestate")
 4) Now, whenever you need to switch states, you call this function: gamestate:switch("newState"), and the script will take care of the rest!
 5) to freeze your state: gamestate:freeze(), to unfreeze: gamestate:unfreeze(), this is useful for pause menus and such :p
 
