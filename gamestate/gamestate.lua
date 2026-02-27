@@ -4,6 +4,8 @@ local curState = nil
 local frozen = false
 local storedCurState = nil
 
+-- script by Mimikitty3, feel free to modify / add to this however to fit your needs <3
+
 function gamestate:switch(newState)
     if state then
         state:exit()
@@ -87,5 +89,6 @@ function gamestate:unfreeze()
         end
     end
 end
+
 
 return gamestate
