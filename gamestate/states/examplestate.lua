@@ -9,7 +9,7 @@ local state = {}
     end
 
     function state:draw()
-
+        love.graphics.print("hello world", 0, 0)
     end
 
     function state:keypressed(key)
