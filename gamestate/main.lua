@@ -1,7 +1,7 @@
 gamestate = require("gamestate")
 
 function love.load()
-    -- gamestate:switch("newState") -- to switch to a new state
+    gamestate:switch("examplestate") -- to switch to a new state
 
     -- gamestate:reset() -- to reset the current state
 
